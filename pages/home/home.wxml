@@ -6,6 +6,7 @@
 
 <view wx:for="{{movies}}">{{item.name}}-时间：{{item.time}}</view>
 <view>当前次数：{{tim}}</view>
+<view>great</view>
 
 <button size="mini" bindtap='dianjiadd'>+</button>
 <button size="mini" bindtap='dianjicut'>-</button>

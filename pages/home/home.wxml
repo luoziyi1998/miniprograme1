@@ -1,7 +1,7 @@
 <!--pages/home/home.wxml-->
 <text class='title'>Hello World</text>
 
-<view> my {{name}}</view>
+<view class='title'> my {{name}}</view>
 <view>我的年龄：{{age + 20}}</view>
 
 <view wx:for="{{movies}}">{{item.name}}-时间：{{item.time}}</view>

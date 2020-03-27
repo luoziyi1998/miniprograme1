@@ -1,7 +1,38 @@
 {
     "pages": [
         "pages/home/home",
-        "pages/about/about"
+        "pages/about/about",
+        "pages/map/map"
     ],
-    "sitemapLocation": "sitemap39.json"
+    "window": {
+        "navigationBarBackgroundColor": "#ff5777",
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "灾情速报",
+        "backgroundColor": "#eeeeee",
+        "backgroundTextStyle": "dark",
+        "enablePullDownRefresh": false
+    },
+    "tabBar": {
+        "selectedColor": "#ff5777",
+        "list": [
+            {
+                "pagePath": "pages/home/home",
+                "text": "home",
+                "iconPath": "assets/img/home1.png",
+                "selectedIconPath": "assets/img/home.png"
+            },
+            {
+                "pagePath": "pages/about/about",
+                "text": "about",
+                "iconPath": "assets/img/about1.png",
+                "selectedIconPath": "assets/img/about.png"
+            },
+            {
+                "pagePath": "pages/map/map",
+                "text": "map",
+                "iconPath": "assets/img/locateHL.png",
+                "selectedIconPath": "assets/img/locateHL.png"
+            }
+        ]
+    }
 }
